@@ -68,11 +68,11 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
 ### Configuración del Backend
 1. Clona el repositorio y accede a la carpeta del proyecto.
    ```bash
-   git clone <URL-del-repositorio>
+   git clone <https://github.com/yucramamanidavid/examen2FlutterAppPracPPP>
    cd backend
-Instala las dependencias con Composer:
+2. Instala las dependencias con Composer:
 
-bash
+``bash
 
 Copiar código
 
@@ -80,7 +80,7 @@ composer install
 
 Configura el archivo .env con tus credenciales de base de datos y ejecuta las migraciones:
 
-bash
+``bash
 
 Copiar código
 
@@ -88,7 +88,7 @@ php artisan migrate
 
 Inicia el servidor de desarrollo de Laravel:
 
-bash
+``bash
 
 Copiar código
 
@@ -98,7 +98,7 @@ Configuración del Frontend
 
 Clona el repositorio y accede a la carpeta del proyecto.
 
-bash
+``bash
 
 Copiar código
 
@@ -108,7 +108,7 @@ cd frontend
 
 Instala las dependencias de Flutter:
 
-bash
+``bash
 
 Copiar código
 
@@ -116,7 +116,7 @@ flutter pub get
 
 Conecta un dispositivo físico o inicia un emulador, y ejecuta la aplicación:
 
-bash
+``bash
 
 Copiar código
 
