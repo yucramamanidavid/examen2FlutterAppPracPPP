@@ -70,39 +70,40 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
    ```bash
    git clone <https://github.com/yucramamanidavid/examen2FlutterAppPracPPP>
    cd backend
+   
 2. Instala las dependencias con Composer:
 
-``bash
+  ```bash
 
-Copiar código
+  Copiar código
+  
+  composer install
 
-composer install
+3. Configura el archivo .env con tus credenciales de base de datos y ejecuta las migraciones:
 
-Configura el archivo .env con tus credenciales de base de datos y ejecuta las migraciones:
+  ```bash
 
-``bash
+    Copiar código
+    
+    php artisan migrate
 
-Copiar código
+4. Inicia el servidor de desarrollo de Laravel:
 
-php artisan migrate
+  ```bash
+  
+  Copiar código
+  
+  php artisan serve
 
-Inicia el servidor de desarrollo de Laravel:
-
-``bash
-
-Copiar código
-
-php artisan serve
-
-Configuración del Frontend
+5.Configuración del Frontend.
 
 Clona el repositorio y accede a la carpeta del proyecto.
 
-``bash
-
-Copiar código
-
-git clone <URL-del-repositorio>
+  ```bash
+  
+  Copiar código
+  
+  git clone <https://github.com/yucramamanidavid/examen2FlutterAppPracPPP>
 
 cd frontend
 
