@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "36387606232",
+    "project_id": "practicasapupeu",
+    "storage_bucket": "practicasapupeu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36387606232:android:847a3ebb870140883211ad",
+        "android_client_info": {
+          "package_name": "pe.edu.upeu.practicas_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZWj35DMSTyjGzam8Fl3jrMRgclzojBGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
