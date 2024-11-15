@@ -15,7 +15,7 @@
 ## Introducción
 Este sistema de prácticas preprofesionales está diseñado para gestionar la relación entre alumnos, tutores y las prácticas que realizan. Su objetivo es facilitar la asignación de tutores a alumnos, la creación y aprobación de prácticas, y la subida de evidencias de manera ordenada y eficiente.
 
-![Vista de la aplicación](images/app_proyecto)
+![Vista de la aplicación](images/app_proyecto.png)
 
 
 El sistema se divide en dos partes:
@@ -68,14 +68,14 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
   - **HomeScreen**: Pantalla principal que muestra las opciones según el rol del usuario.
   - **AsignadosScreen**: Muestra la lista de tutores asignados a los alumnos.
   - **PracticaDetailsScreen**: Muestra los detalles de una práctica específica y permite subir evidencia.
-![Vistas](images/tutores)
+![Vistas](images/tutores.pmg)
 
 ## Cómo Configurar y Ejecutar el Proyecto
 
 ### Requisitos
 - **Backend**: PHP 7.4 o superior, Composer, Laravel 8, y MySQL
 - **Frontend**: Flutter SDK
-![Conexion Backend con Frontend](images/conexion_back)
+![Conexion Backend con Frontend](images/conexion_back.png)
 
 ### Configuración del Backend
 1. Clona el repositorio y accede a la carpeta del proyecto.
