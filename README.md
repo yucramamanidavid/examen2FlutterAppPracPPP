@@ -68,7 +68,8 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
   - **HomeScreen**: Pantalla principal que muestra las opciones según el rol del usuario.
   - **AsignadosScreen**: Muestra la lista de tutores asignados a los alumnos.
   - **PracticaDetailsScreen**: Muestra los detalles de una práctica específica y permite subir evidencia.
-![Vistas](images/tutores.pmg)
+    
+![Vistas](images/tutores.png)
 
 ## Cómo Configurar y Ejecutar el Proyecto
 
