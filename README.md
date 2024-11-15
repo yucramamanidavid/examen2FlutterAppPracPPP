@@ -15,15 +15,22 @@
 ## Introducción
 Este sistema de prácticas preprofesionales está diseñado para gestionar la relación entre alumnos, tutores y las prácticas que realizan. Su objetivo es facilitar la asignación de tutores a alumnos, la creación y aprobación de prácticas, y la subida de evidencias de manera ordenada y eficiente.
 
+![Vista de la aplicación](images/app_proyecto)
+
+
 El sistema se divide en dos partes:
 - **Backend**: Desarrollado en Laravel, sirve como el servidor y proporciona las APIs para interactuar con la base de datos.
 - **Frontend**: Aplicación móvil construida con Flutter, que permite a los usuarios interactuar con el sistema de manera intuitiva.
+
+
 
 ## Arquitectura del Sistema
 El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Flutter (frontend) se comunica con la API Laravel (backend). 
 
 - **Laravel (Backend)**: Gestiona la base de datos y expone las APIs para manejar los datos de alumnos, tutores y prácticas.
 - **Flutter (Frontend)**: Interfaz de usuario que permite a los usuarios interactuar con el sistema. Utiliza la librería `http` para conectarse con el backend y el paquete `Provider` para la gestión de estado.
+  ![Diagrama de Arquitectura](images/diagrama_arqui)
+
 
 ### Componentes de la Arquitectura:
 - **Controladores**: Gestionan las solicitudes HTTP y procesan la lógica de negocio.
@@ -44,6 +51,8 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
 - `lib/services`: `ApiService`, que gestiona las solicitudes HTTP hacia el backend.
 - `lib/providers`: `UserProvider`, que gestiona el estado de autenticación y roles de usuario.
 
+
+
 ## Detalles de los Componentes
 
 ### Backend
@@ -58,12 +67,14 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
   - **HomeScreen**: Pantalla principal que muestra las opciones según el rol del usuario.
   - **AsignadosScreen**: Muestra la lista de tutores asignados a los alumnos.
   - **PracticaDetailsScreen**: Muestra los detalles de una práctica específica y permite subir evidencia.
+![Vistas](images/tutores)
 
 ## Cómo Configurar y Ejecutar el Proyecto
 
 ### Requisitos
 - **Backend**: PHP 7.4 o superior, Composer, Laravel 8, y MySQL
 - **Frontend**: Flutter SDK
+![Conexion Backend con Frontend](images/conexion_back)
 
 ### Configuración del Backend
 1. Clona el repositorio y accede a la carpeta del proyecto.
