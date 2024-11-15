@@ -75,6 +75,7 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
 ### Requisitos
 - **Backend**: PHP 7.4 o superior, Composer, Laravel 8, y MySQL
 - **Frontend**: Flutter SDK
+  
 ![Conexion Backend con Frontend](images/conexion_back.png)
 
 ### Configuración del Backend
