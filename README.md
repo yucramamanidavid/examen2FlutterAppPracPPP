@@ -29,7 +29,8 @@ El sistema sigue una arquitectura cliente-servidor, en la cual la aplicación Fl
 
 - **Laravel (Backend)**: Gestiona la base de datos y expone las APIs para manejar los datos de alumnos, tutores y prácticas.
 - **Flutter (Frontend)**: Interfaz de usuario que permite a los usuarios interactuar con el sistema. Utiliza la librería `http` para conectarse con el backend y el paquete `Provider` para la gestión de estado.
-  ![Diagrama de Arquitectura](images/diagrama_arqui)
+- 
+![Diagrama de Arquitectura](images/diagrama_arqui.png)
 
 
 ### Componentes de la Arquitectura:
